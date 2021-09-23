@@ -1,6 +1,7 @@
-//LINEAR SEARCH RISHI CHHABRA
+//LINEAR SEARCH RISHI CHHABRA 202116
+
 #include<iostream>
-using namespace std;
+using namespace std;   
 int main()
 {
     int a[10], i, num,m;
@@ -11,13 +12,14 @@ int main()
     cin>>num;
     for(i=0; i<5; i++)
     {
-        if(a[i]==num
-        {
-            m = i;
-            break;
-        }
+        if(a[i]==num)
+        
+            {
+                m = i;
+                break;
+            }
     }
-    cout<<"Found at Index No."<<m;
+    cout<<"Found at POSITION No."<<m+1;
     cout<<endl;
     return 0;
 }
