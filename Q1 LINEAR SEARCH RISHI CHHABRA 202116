@@ -1,14 +1,15 @@
+
 #include<iostream>
 using namespace std;
 int main()
 {
     int a[10], i, num,m;
-    cout<<"Enter 10 Numbers: ";
-    for(i=0; i<10; i++)
+    cout<<"Enter 5 Numbers: ";
+    for(i=0; i<5; i++)
         cin>>a[i];
     cout<<"Enter a Number to Search: ";
     cin>>num;
-    for(i=0; i<10; i++)
+    for(i=0; i<5; i++)
     {
         if(a[i]==num
         {
