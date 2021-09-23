@@ -1,4 +1,4 @@
-
+//LINEAR SEARCH RISHI CHHABRA
 #include<iostream>
 using namespace std;
 int main()
