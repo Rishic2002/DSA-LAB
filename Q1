@@ -2,21 +2,21 @@
 using namespace std;
 int main()
 {
-    int arr[10], i, num, index;
+    int a[10], i, num,m;
     cout<<"Enter 10 Numbers: ";
     for(i=0; i<10; i++)
-        cin>>arr[i];
-    cout<<"\nEnter a Number to Search: ";
+        cin>>a[i];
+    cout<<"Enter a Number to Search: ";
     cin>>num;
     for(i=0; i<10; i++)
     {
-        if(arr[i]==num)
+        if(a[i]==num
         {
-            index = i;
+            m = i;
             break;
         }
     }
-    cout<<"\nFound at Index No."<<index;
+    cout<<"Found at Index No."<<m;
     cout<<endl;
     return 0;
 }
