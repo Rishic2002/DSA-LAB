@@ -1,25 +1,34 @@
-//LINEAR SEARCH RISHI CHHABRA 202116
-
-#include<iostream>
-using namespace std;   
+//LINEAR SEARCH IN 2D ARRAY 2X2 MATRIX RISHI CHHABRA 202116
+#include <iostream>
+using namespace std;;
 int main()
 {
-    int a[10], i, num,m;
-    cout<<"Enter 5 Numbers: ";
-    for(i=0; i<5; i++)
-        cin>>a[i];
-    cout<<"Enter a Number to Search: ";
-    cin>>num;
-    for(i=0; i<5; i++)
-    {
-        if(a[i]==num)
-        
-            {
-                m = i;
-                break;
-            }
-    }
-    cout<<"Found at POSITION No."<<m+1;
-    cout<<endl;
-    return 0;
+	int i,j,x,loci=0,locj=0;    // loci position of i locj position of j
+	int a[3][3];
+	printf("\nEneter The Value Of Array:");
+	for(i=1;i<=2;i++)
+		{
+			for(j=1;j<=2;j++)
+				{
+					cin>>a[i][j];
+				}
+		}
+
+	printf("\nEnter The Value To Be Serched:");
+    cin>>x;
+	for(i=1;i<=2;i++)
+		{
+			for(j=1;j<=2;j++)
+				{
+					if(x==a[i][j])
+						{
+							loci=i;
+							locj=j;
+							break;
+						}
+				}
+		}
+	printf("\nThe Element is at %d Row And %d Coloumn.",loci,locj);
+	printf("\nSearch Completed.");
+	return 0;
 }
