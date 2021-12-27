@@ -1,6 +1,7 @@
 //ITERATIVE BINARY SEARCH RISHI CHHABRA 202116
 #include <stdio.h>
-int IBS(int array[], int start_index, int end_index, int element){
+int IBS(int array[], int start_index, int end_index, int element). //IBS ITERATIVE BINARY SEARCH 
+{
    while (start_index <= end_index){
       int middle = start_index + (end_index- start_index )/2;
       if (array[middle] == element)
